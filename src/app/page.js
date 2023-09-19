@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import AboutSection from "@/components/AboutSection";
+import ProjectSection from "@/components/ProjectSection";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
@@ -19,6 +20,7 @@ const Home = () => {
       <div className="container mx-auto mt-20  ">
         <Hero />
         <AboutSection />
+        <ProjectSection />
       </div>
     </main>
   );
