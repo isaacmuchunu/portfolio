@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-white mb-4 text-2xl md:text-5xl font-semibold"
+          className="text-white mb-4 text-2xl md:text-5xl font-semibold font-poppins"
         >
           Logo
         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
           )}
         </div>
         <div className="menu hidden uppercase md:w-auto md:block" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row mt-0 md:space-x-8">
+          <ul className="flex p-4 md:p-0 md:flex-row mt-0 md:space-x-8 font-poppins">
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink title={link.title} href={link.path} />
