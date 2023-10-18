@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import ProjectSection from "@/components/ProjectSection";
 import { Poppins } from "next/font/google";
 import EmailSection from "@/components/EmailSection";
+import Footer from "@/components/Footer";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -23,6 +24,7 @@ const Home = () => {
         <AboutSection />
         <ProjectSection />
         <EmailSection/>
+        <Footer/>
       </div>
     </main>
   );
