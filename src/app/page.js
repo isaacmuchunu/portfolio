@@ -16,18 +16,16 @@ const poppins = Poppins({
 
 const Home = () => {
   return (
-    <main
-      className={`container mx-auto flex min-h-screen flex-col px-4 py-2 ${poppins.variable} font-sans`}
-    >
+    <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
-      <div className="container mx-auto mt-20  ">
+      <div className="container mt-24 mx-auto px-12 py-4">
         <Hero />
-        <Achievements/>
+        <Achievements />
         <AboutSection />
         <ProjectSection />
-        <EmailSection/>
-        <Footer/>
+        <EmailSection />
       </div>
+      <Footer />
     </main>
   );
 };
